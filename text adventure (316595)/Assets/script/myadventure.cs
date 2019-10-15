@@ -124,9 +124,9 @@ public class myadventure : MonoBehaviour
                 {
                     drivethrough();
                 }
-                else if (input == "clim")
+                else if (input == "climb")
                 {
-                    clim();
+                    climb();
                 }
                 break;
             case States.shipyard:
@@ -221,7 +221,7 @@ public class myadventure : MonoBehaviour
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("");
-        Terminal.WriteLine("it around 2 am and your in amsterdam");
+        Terminal.WriteLine("it around 2 am and you are in amsterdam");
         Terminal.WriteLine("in the center and it full of people");
         Terminal.WriteLine("running from chinees special agents");
         Terminal.WriteLine("they are about 5 meters behind you");
@@ -308,9 +308,9 @@ public class myadventure : MonoBehaviour
         Terminal.WriteLine("but there is a fence between you");
         Terminal.WriteLine("and the plane");
         Terminal.WriteLine("you can drive through the fence");
-        Terminal.WriteLine("or clim over it"); 
+        Terminal.WriteLine("or climb over it"); 
         Terminal.WriteLine("");
-        Terminal.WriteLine("clim");
+        Terminal.WriteLine("climb");
         Terminal.WriteLine("drive through");
         currentState = States.plane;
 
@@ -328,7 +328,7 @@ public class myadventure : MonoBehaviour
         currentState = States.gameover;
     }
 
-    void clim()
+    void climb()
     {
         Terminal.ClearScreen();
         Terminal.WriteLine("");
