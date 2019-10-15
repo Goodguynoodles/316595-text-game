@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\localadmin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\localadmin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_text adventure (316595).380688746.00" t="ExcludeRecursive" />
+    <e p="D:\game\text adventure (316595)" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Pixel Font - Tripfive" t="Include">
+          <e p="_README.txt" t="Include" />
+        </e>
+        <e p="RetroMusicPack Free" t="Include">
+          <e p="readme_EN.txt" t="Include" />
+          <e p="readme_JP.txt" t="Include" />
+        </e>
+        <e p="script" t="Include">
+          <e p="gamesound.cs" t="Include" />
+          <e p="mainmenu.cs" t="Include" />
+          <e p="myadventure.cs" t="Include" />
+          <e p="settings_script.cs" t="Include" />
+        </e>
+        <e p="WM2000" t="Include">
+          <e p="Display" t="Include">
+            <e p="Display.cs" t="Include" />
+          </e>
+          <e p="Keyboard" t="Include">
+            <e p="Keyboard.cs" t="Include" />
+          </e>
+          <e p="Terminal" t="Include">
+            <e p="DisplayBuffer.cs" t="Include" />
+            <e p="InputBuffer.cs" t="Include" />
+            <e p="Terminal.cs" t="Include" />
+          </e>
+          <e p="Utility.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="text adventure (316595).sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
